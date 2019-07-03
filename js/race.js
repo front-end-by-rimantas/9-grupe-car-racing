@@ -26,9 +26,11 @@ function moveCar( event ) {
     // tikriname ar kuri nors masina kirto finiso linija
     if ( car1Position >= trackLength ) {
         alert('Pirma masina laimejo!');
+        location.reload();
     }
     if ( car2Position >= trackLength ) {
         alert('Antra masina laimejo!');
+        location.reload();
     }
 
     return;
